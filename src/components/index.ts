@@ -24,8 +24,6 @@ import Blogs from "./blog/blogs";
 
 
 export {
-    SignInForm,
-    SignUpForm,
 
     Icons,
     MaxWidthWrapper,
