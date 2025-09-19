@@ -14,7 +14,6 @@ import {
     SheetTrigger
 } from "@/components/ui/sheet";
 import { cn, NAV_LINKS } from "@/utils";
-import { useAuth } from "@clerk/nextjs";
 import { LucideIcon, Menu, X } from "lucide-react";
 import Link from "next/link";
 import React, { useState } from 'react';
