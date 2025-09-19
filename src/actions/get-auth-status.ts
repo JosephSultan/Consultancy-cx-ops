@@ -1,7 +1,6 @@
 "use server";
 
 const getAuthStatus = async () => {
-    const user = await currentUser();
 
     if (!user?.id || !user?.primaryEmailAddress?.emailAddress) {
         return { error: "User not found" };

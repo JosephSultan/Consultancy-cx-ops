@@ -14,8 +14,6 @@ import Link from "next/link";
 
 const HomePage = async () => {
 
-    const user = await currentUser();
-
     return (
         <div className="overflow-x-hidden scrollbar-hide size-full">
             {/* Hero Section */}
