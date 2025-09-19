@@ -1,7 +1,5 @@
 "use server";
 
-import { db } from "@/lib";
-
 const getAuthStatus = async () => {
     const user = await currentUser();
 
