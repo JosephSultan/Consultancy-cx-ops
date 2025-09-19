@@ -1,22 +1,13 @@
 "use client";
 
-import React from 'react'
+import React from "react";
 
 interface Props {
-    children: React.ReactNode;
+  children: React.ReactNode;
 }
 
 const Providers = ({ children }: Props) => {
-
-    const client = new QueryClient();
-
-    return (
-        <QueryClientProvider client={client}>
-            <ClerkProvider>
-                {children}
-            </ClerkProvider>
-        </QueryClientProvider>
-    )
+  return <>{children}</>;
 };
 
-export default Providers
+export default Providers;
